@@ -13,7 +13,7 @@
         <nav class="full-box nav-lateral-menu">
             <ul>
                 <li>
-                    <a href="home.html"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard</a>
+                    <a href="home.html"><i class="fab fa-dashcube fa-fw"></i> &nbsp; OPCIONES</a>
                 </li>
 
                 <li>
@@ -53,13 +53,10 @@
                             <a href="reservation-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Nueva Cotizacion</a>
                         </li>
                         <li>
-                            <a href="reservation-reservation.html"><i class="far fa-calendar-alt fa-fw"></i> &nbsp; Reservaciones</a>
-                        </li>
-                        <li>
                             <a href="reservation-pending.html"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; Cotizaciones</a>
                         </li>
                         <li>
-                            <a href="reservation-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Finalizados</a>
+                            <a href="reservation-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Finalizadas</a>
                         </li>
                         <li>
                             <a href="reservation-search.html"><i class="fas fa-search-dollar fa-fw"></i> &nbsp; Buscar por fecha</a>

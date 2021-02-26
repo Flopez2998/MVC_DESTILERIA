@@ -6,8 +6,8 @@
 	<title><?php echo NombreEmpresa;?></title>
 
     <!---Enlaces a estilos css -->
-    <?php include "./vistas/utilidades/linkEstilosCss.php";?>
-		
+  <?php include "./vistas/utilidades/linkEstilosCss.php";?>	
+
 </head>
 <body>
 	<?php
@@ -17,12 +17,11 @@
 
         $vistas = $vistasInstancia->obtenerVistasControlador();
 
-        if($vistas=="login" || $vistas=="page404"){
+        if($vistas=="login" || $vistas=="404"){
             require_once "./vistas/contenidos/".$vistas."-view.php";
-        }else{
- 
-        
+        }else{  
     ?>
+
 	<!-- Main container -->
 	<main class="full-box main-container">
 		<!---Menu Lateral -->
@@ -31,15 +30,17 @@
         <!-- Page content -->
 		<section class="full-box page-content">
 			<!---Barra de Navegacion -->
-            <?php include "./vistas/utilidades/barraNavegacion.php";?>
-		
+            <?php include "./vistas/utilidades/barraNavegacion.php";
+                include $vistas;
+            ?>   
+        </section>
 	</main>
+
     	<!---Archivos Scripts -->
     <?php 
         }
         include "./vistas/utilidades/scripts.php";
     ?>
-		
 	
 	</body>
 </html>

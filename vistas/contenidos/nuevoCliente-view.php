@@ -32,8 +32,8 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="form-group">
-                        <label for="cliente_dni" class="bmd-label-floating">RTN</label>
-                        <input type="text" pattern="[0-9-]{1,27}" class="form-control" name="cliente_dni_reg" id="cliente_dni" maxlength="27">
+                        <label for="cliente_rtn" class="bmd-label-floating">RTN</label>
+                        <input type="text" pattern="[0-9-]{1,27}" class="form-control" name="cliente_rtn_reg" id="cliente_rtn" maxlength="27">
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -44,8 +44,8 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="form-group">
-                        <label for="cliente_apellido" class="bmd-label-floating">Correo Electronico</label>
-                        <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="cliente_apellido_reg" id="cliente_apellido" maxlength="40">
+                        <label for="cliente_correo" class="bmd-label-floating">Correo Electronico</label>
+                        <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="cliente_correo_reg" id="cliente_correo" maxlength="40">
                     </div>
                 </div>
                 <div class="col-12 col-md-4">

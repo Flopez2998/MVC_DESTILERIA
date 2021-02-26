@@ -28,7 +28,7 @@
 :root{
 	--color-one: #F5F5F5;
 	--color-two: #24292E;
-	--color-three: #EC5252;
+	--color-three: rgb(57, 155, 168);
 	/*--color-three: #0366D6;*/
 
 	--form-color: #14111A;
@@ -99,7 +99,7 @@ body,html{
 	border-bottom: 2px solid transparent;
 }
 .page-nav-tabs li a.active{
-	color: var(--color-three);
+	color:var(--color-three);;
 	cursor: none;
 	pointer-events: none;
 }
@@ -267,7 +267,7 @@ table form{
 }
 .nav-lateral-bar{
 	height: 3px;
-	background-color: var(--color-three);
+	background-color:var(--color-three);
 }
 .nav-lateral-avatar{
 	padding: 40px 0;
@@ -312,7 +312,7 @@ table form{
 }
 .nav-lateral-menu ul li a.active{
 	color: #FFF;
-	background-color: var(--color-three);
+	background-color:  var(--color-three);
 }
 .nav-lateral-menu ul li a:hover{
 	color: #fff;
@@ -347,7 +347,7 @@ table form{
 }
 
 .navbar-info a{
-	color: var(--accent-color);
+	color:  var(--color-three);
 	height: 50px;
 	min-width: 40px;
 	text-align: center;
@@ -428,7 +428,7 @@ table form{
 }
 
 
-/*----------  Breakpoints  ----------*/
+/*----------  Responsive  ----------*/
 @media (max-width: 767px){
 	.nav-lateral{
 		width: 100%;

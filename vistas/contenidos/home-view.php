@@ -39,4 +39,11 @@
             </div>
         </a>
 
+        <a href="user-list.html" class="tile">
+            <div class="tile-tittle">Cuentas Bancarias</div>
+            <div class="tile-icon">
+                <i class="fas fa-user-secret fa-fw"></i>
+            </div>
+        </a>
+
     </div></section>

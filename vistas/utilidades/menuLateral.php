@@ -79,6 +79,21 @@
                     </ul>
                 </li>
 
+                <li>
+                    <a href="#" class="nav-btn-submenu"><i class="fas  fa-user-secret fa-fw"></i> &nbsp; Cuentas Bancarias <i class="fas fa-chevron-down"></i></a>
+                    <ul>
+                        <li>
+                            <a href="user-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Nueva cuenta</a>
+                        </li>
+                        <li>
+                            <a href="user-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de cuentas </a>
+                        </li>
+                        <li>
+                            <a href="user-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar cuenta</a>
+                        </li>
+                    </ul>
+                </li>
+
                 <!--<li>
                     <a href="company.html"><i class="fas fa-store-alt fa-fw"></i> &nbsp; Empresa</a>
                 </li>-->

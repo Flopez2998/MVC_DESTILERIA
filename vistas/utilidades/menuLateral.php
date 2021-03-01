@@ -13,20 +13,20 @@
         <nav class="full-box nav-lateral-menu">
             <ul>
                 <li>
-                    <a href="home.html"><i class="fab fa-dashcube fa-fw"></i> &nbsp; OPCIONES</a>
+                    <a href="home/"><i class="fab fa-dashcube fa-fw"></i> &nbsp; OPCIONES</a>
                 </li>
 
                 <li>
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Clientes <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Cliente</a>
+                            <a href=" <?php echo ServerUrl;?>nuevoCliente/"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Cliente</a>
                         </li>
                         <li>
-                            <a href="client-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de clientes</a>
+                            <a href="<?php echo ServerUrl;?>vistaClientes/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de clientes</a>
                         </li>
                         <li>
-                            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar cliente</a>
+                            <a href="<?php echo ServerUrl;?>buscarCliente/"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar cliente</a>
                         </li>
                     </ul>
                 </li>
@@ -35,13 +35,13 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-pallet fa-fw"></i> &nbsp; Productos <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="item-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Producto</a>
+                            <a href="<?php echo ServerUrl;?>nuevoProducto/"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Producto</a>
                         </li>
                         <li>
-                            <a href="item-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Productos</a>
+                            <a href="<?php echo ServerUrl;?>listaProductos/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Productos</a>
                         </li>
                         <li>
-                            <a href="item-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar Producto</a>
+                            <a href="<?php echo ServerUrl;?>buscarProducto/"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar Producto</a>
                         </li>
                     </ul>
                 </li>
@@ -50,13 +50,13 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-file-invoice-dollar fa-fw"></i> &nbsp; Cotizaciones <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="reservation-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Nueva Cotizacion</a>
+                            <a href="<?php echo ServerUrl;?>nuevaCotizacion/"><i class="fas fa-plus fa-fw"></i> &nbsp; Nueva Cotizacion</a>
                         </li>
                         <li>
-                            <a href="reservation-pending.html"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; Cotizaciones</a>
+                            <a href="<?php echo ServerUrl;?>listaCotizaciones/"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; Cotizaciones</a>
                         </li>
                         <li>
-                            <a href="reservation-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Finalizadas</a>
+                            <a href="<?php echo ServerUrl;?>finalizadas/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Finalizadas</a>
                         </li>
                         <li>
                             <a href="reservation-search.html"><i class="fas fa-search-dollar fa-fw"></i> &nbsp; Buscar por fecha</a>
@@ -68,13 +68,13 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas  fa-user-secret fa-fw"></i> &nbsp; Usuarios <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="user-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo usuario</a>
+                            <a href="<?php echo ServerUrl;?>nuevoUsuario/"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo usuario</a>
                         </li>
                         <li>
-                            <a href="user-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
+                            <a href="<?php echo ServerUrl;?>listaUsuarios/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
                         </li>
                         <li>
-                            <a href="user-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar usuario</a>
+                            <a href="<?php echo ServerUrl;?>buscarUsuario"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar usuario</a>
                         </li>
                     </ul>
                 </li>
@@ -83,13 +83,13 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas  fa-user-secret fa-fw"></i> &nbsp; Cuentas Bancarias <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="user-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Nueva cuenta</a>
+                            <a href="<?php echo ServerUrl;?>nuevaCuenta/"><i class="fas fa-plus fa-fw"></i> &nbsp; Nueva cuenta</a>
                         </li>
                         <li>
-                            <a href="user-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de cuentas </a>
+                            <a href="<?php echo ServerUrl;?>listaCuentas/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de cuentas </a>
                         </li>
                         <li>
-                            <a href="user-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar cuenta</a>
+                            <a href="<?php echo ServerUrl;?>/buscarCuenta"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar cuenta</a>
                         </li>
                     </ul>
                 </li>

@@ -12,13 +12,13 @@
 <div class="container-fluid">
 <ul class="full-box list-unstyled page-nav-tabs">
 <li>
-<a class="active" href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR USUARIO</a>
+<a class="active" href="<?php echo ServerUrl;?>nuevoUsuario/"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR USUARIO</a>
 </li>
 <li>
-<a href="client-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE USUARIOS</a>
+<a href="<?php echo ServerUrl;?>listaUsuarios/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE USUARIOS</a>
 </li>
 <li>
-<a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR USUARIO</a>
+<a href="<?php echo ServerUrl;?>buscarUsuario/"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR USUARIO</a>
 </li>
 </ul>	
 </div>

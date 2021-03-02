@@ -25,7 +25,7 @@
 
 <!-- Content here-->
 <div class="container-fluid">
-<form action="" class="form-neon" autocomplete="off">
+<form  class="form-neon FormularioAjax" action="" method="POST" data-form="save"  autocomplete="off">
 <fieldset>
 <legend><i class="fas fa-user"></i> &nbsp; Información Del Usuario</legend>
 <div class="container-fluid">

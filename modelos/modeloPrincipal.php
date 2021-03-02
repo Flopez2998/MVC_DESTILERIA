@@ -41,4 +41,9 @@ class modeloPrincipal{
         return $output;
     }
 
+     /*Funcion para generar codigos aleatorios*/
+    protected static function generar_aleatorio(){
+        
+    }
+
 }

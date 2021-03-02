@@ -25,7 +25,8 @@
 
 <!-- Content here-->
 <div class="container-fluid">
-<form  class="form-neon FormularioAjax" action="" method="POST" data-form="save"  autocomplete="off">
+<form  class="form-neon FormularioAjax" action="<?php echo ServerUrl;?>ajax/usuariosAjax.php" 
+        method="POST" data-form="save"  autocomplete="off">
 <fieldset>
 <legend><i class="fas fa-user"></i> &nbsp; Información Del Usuario</legend>
 <div class="container-fluid">
@@ -33,7 +34,7 @@
         <div class="col-12 col-md-6">
             <div class="form-group">
                 <label for="usuario_id" class="bmd-label-floating">Identidad</label>
-                <input type="text" pattern="[0-9-]{1,27}" class="form-control" name="usuario_id_rtn_reg" id="usuario_id" maxlength="27">
+                <input type="text" pattern="[0-9-]{1,27}" class="form-control" name="usuario_id_reg" id="usuario_id" maxlength="27">
             </div>
         </div>
         <div class="col-12 col-md-6">
@@ -42,22 +43,40 @@
                 <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="usuario_nombre_reg" id="usuario_nombre" maxlength="40">
             </div>
         </div>
+        <div class="col-12 col-md-6">
+            <div class="form-group">
+                <label for="usuario_identidad" class="bmd-label-floating">Identidad</label>
+                <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="usuario_identidad_reg" id="usuario_identidad" maxlength="40">
+            </div>
+        </div>
         <div class="col-12 col-md-4">
             <div class="form-group">
                 <label for="usuario_correo" class="bmd-label-floating">Correo Electronico</label>
                 <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="usuario_correo_reg" id="usuario_correo" maxlength="40">
             </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="usuario_fecha" class="bmd-label-floating">Fecha de Ingreso</label>
-                <input type="date" pattern="[0-9()+]{8,20}" class="form-control" name="usuario_fecha_reg" id="usuario_fecha" maxlength="20">
+                <label for="usuario_direccion" class="bmd-label-floating">Dirección</label>
+                <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="usuario_direccion_reg" id="usuario_direccion" maxlength="40">
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="form-group">
+                <label for="usuario_telefono" class="bmd-label-floating">Telefono</label>
+                <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="usuario_telefono_reg" id="usuario_telefono" maxlength="40">
             </div>
         </div>
         <div class="col-12 col-md-4">
             <div class="form-group">
-                <label for="usuario_rol" class="bmd-label-floating">Rol</label>
-                <input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,#\- ]{1,150}" class="form-control" name="usuario_rol_reg" id="usuario_rol" maxlength="150">
+                <label for="usuario_fecha" class="bmd-label-floating">Fecha de Ingreso</label>
+                <input type="date" pattern="[0-9()+]{8,20}" class="form-control" name="usuario_fecha_reg" id="usuario_fecha_reg" maxlength="20">
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="form-group">
+                <label for="usuario_sueldo" class="bmd-label-floating">Sueldo</label>
+                <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,40}" class="form-control" name="usuario_sueldo_reg" id="usuario_sueldo" maxlength="40">
             </div>
         </div>
         <div class="col-12 col-md-4">

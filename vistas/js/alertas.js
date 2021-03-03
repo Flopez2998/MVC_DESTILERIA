@@ -65,14 +65,14 @@ function alertasAjax(alerta){
     if(alerta.Alerta==="simple"){
         Swal.fire({
             title: alerta.Titulo,
-            text: alerta.Titulo,
+            text: alerta.Texto,
             type: alerta.Tipo,
             confirmButtonText: 'Aceptar'
         });
     }else if(alerta.Alerta==="recargar"){
         Swal.fire({
             title: alerta.Titulo,
-            text: alerta.Titulo,
+            text: alerta.Texto,
             type: alerta.Tipo,
             confirmButtonText: 'Aceptar'
         }).then((result)=>{
@@ -83,7 +83,7 @@ function alertasAjax(alerta){
     }else if(alerta.Alerta==="limpiar"){
         Swal.fire({
             title: alerta.Titulo,
-            text: alerta.Titulo,
+            text: alerta.Texto,
             type: alerta.Tipo,
             confirmButtonText: 'Aceptar'
         }).then((result)=>{

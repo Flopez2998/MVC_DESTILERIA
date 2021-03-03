@@ -6,9 +6,10 @@ class usuariosModelos extends modeloPrincipal {
 
         /*--Modelo Para agregar usuario-- */
         protected static function agregarUsuarioModelo($datos){
-            $sql=modeloPrincipal::conexionDb()->prepare("INSERT INTO empleados(nombre, identidad,correo,direccion,telefono,fecha_ingreso,sueldo,id_estado) 
-            VALUES(:Nombre,:ID,:Correo,:Direccion,:Telefono,:Fecha,:Sueldo,:Estado)");
+            $sql=modeloPrincipal::conexionDb()->prepare("INSERT INTO empleados(id_empleado,nombre, identidad,correo,direccion,telefono,fecha_ingreso,sueldo,id_estado) 
+            VALUES(:Cod_empleado,:Nombre,:ID,:Correo,:Direccion,:Telefono,:Fecha,:Sueldo,:Estado)");
             
+            $sql->bindParam(":Cod_empleado",$datos['Cod_empleado']);
             $sql->bindParam(":Nombre",$datos['Nombre']);    
             $sql->bindParam(":ID",$datos['ID']);
             $sql->bindParam(":Correo",$datos['Correo']);

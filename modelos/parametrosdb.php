@@ -15,7 +15,7 @@
 $servidor"127.0.0.1";
 $usario = "destileria2021";
 $contraseña = "destileria2021";
-$db = "Destileria2021";
+$db = "destileria2021";
 $puerto = "3306";
 
 $emailHost = 'email-smtp.us-west-2.amazonaws.com';

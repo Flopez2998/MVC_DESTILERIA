@@ -30,6 +30,7 @@
 <fieldset>
 <legend><i class="fas fa-user"></i> &nbsp; Información Del Usuario</legend>
 <div class="container-fluid">
+
     <div class="row">
         <div class="col-12 col-md-6">
             <div class="form-group">
@@ -75,12 +76,11 @@
         </div>
         <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="usuario_contraseña" class="bmd-label-floating">Contraseña</label>
-                <input type="text" pattern="[0-9a-zA-ZáéíóúÁÉÍÓÚñÑ#*-.,/ ]{1,40}" class="form-control" name="usuario_contraseña_reg" id="contraseña" maxlength="32" required="">
+                <label for="usuario_sueldo" class="bmd-label-floating">Sueldo</label>
+                <input type="text" pattern="[0-9-.,]{1,40}" class="form-control" name="usuario_sueldo_reg" id="usuario_sueldo" maxlength="40">
             </div>
         </div>
-
-        <div class="col-12 col-md-4">
+        <!--<div class="col-12 col-md-4">
             <div class="form-group">
                 <select class="form-control" name="usuario_estado_reg">
                 <option value="" selected="" disable="">Seleccione una opción</option>
@@ -88,7 +88,7 @@
                 <option value="2">Inactivo</option>
                 </select>    
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 </fieldset>

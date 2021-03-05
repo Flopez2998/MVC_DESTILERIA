@@ -1,6 +1,6 @@
 <?php
 
-        const Servidor = "localhost";
+        const Servidor = "127.0.0.1";
         const db = "destileria2021";
         const user = "root";
         const contraseña = "";

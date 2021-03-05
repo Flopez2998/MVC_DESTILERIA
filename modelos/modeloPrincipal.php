@@ -2,7 +2,7 @@
 
 //Vamos a verificar si es una peticion ajax o no
 if($peticionAjax){
-            require_once"../configuracion/servidor.php";
+            require_once "../configuracion/servidor.php";
     }else{
         require_once "./configuracion/servidor.php";
     }
@@ -11,7 +11,7 @@ class modeloPrincipal{
     /*Funcion para conectar a la base de datos*/
 
     protected static function conexionDb(){
-        $conexion = new PDO( SGBD, user, contraeña);
+        $conexion = new PDO( SGBD, user, contraseña);
         $conexion->exec("SET CHARACTER SET utf8");
         return $conexion;
     }

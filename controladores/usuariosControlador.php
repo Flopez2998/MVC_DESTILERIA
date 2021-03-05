@@ -3,7 +3,7 @@
 if($peticionAjax){
     require_once "../modelos/usuariosModelos.php";
 }else{
-    require_once "./usuariosModelos.php";
+    require_once "./modelos/usuariosModelos.php";
 }
 
 class usuariosControlador extends usuariosModelos{
@@ -18,7 +18,7 @@ class usuariosControlador extends usuariosModelos{
             $telefono=modeloPrincipal::limpiar_cadena($_POST['usuario_telefono_reg']);
             $fecha_ingreso=modeloPrincipal::limpiar_cadena($_POST['usuario_fecha_reg']);
             $sueldo=modeloPrincipal::limpiar_cadena($_POST['usuario_sueldo_reg']);
-            $estado=modeloPrincipal::limpiar_cadena($_POST['usuario_estado_reg']);
+            //$estado=modeloPrincipal::limpiar_cadena($_POST['usuario_estado_reg']);
             
             /**Comprobar los campos vacios*/
             if($id=="" || $nombre=="" || $correo=="" || $fecha_ingreso==""){

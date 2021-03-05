@@ -2,12 +2,12 @@
         $peticionAjax=true;
         require_once "../configuracion/app.php";
 
-        if(isset($_POST)){
+        if(isset($_POST['usuario_id_reg'])){
             require_once "../controladores/usuariosControlador.php";
             $instanciaUsuarios= new usuariosControlador();
         
             if(isset($_POST['usuario_id_reg']) && isset($_POST['usuario_nombre_reg']) ){//si vienen definidades estas variables se va a ejecutar el controlador para insertar a la base de datos
-                   echo ins 
+                   echo $instanciaUsuarios->agregarUsuarioControlador(); 
             }
         }else{
            session_start(['name'=>'destileria']);
